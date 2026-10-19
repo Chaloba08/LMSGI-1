@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Informacion usuarios</title>
+</head>
+<body>
+    <h1>Formulario de registro de usuarios</h1>
+    <form action="#" method="POST">
+
+        <!-- SECCIÓN: INFORMACIÓN PERSONAL -->
+    <div class="grupo-formulario">
+            <h3>Información Personal</h3>
+            
+            <p>
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" required>
+            </p>
+
+            <p>
+                <label for="apellido">Apellido:</label>
+                <input type="text" id="apellido" name="apellido" required>
+            </p>
+
+            <p>
+                <label for="fecha-nacimiento">Fecha de Nacimiento:</label>
+                <input type="date" id="fecha-nacimiento" name="fecha_nacimiento" required>
+            </p>
+
+            <p>
+                <span>Género:</span>
+                <input type="radio" id="genero-masculino" name="genero" value="Masculino" required>
+                <label for="genero-masculino">Masculino</label>
+
+                <input type="radio" id="genero-femenino" name="genero" value="Femenino">
+                <label for="genero-femenino">Femenino</label>
+
+                <input type="radio" id="genero-otro" name="genero" value="Otro">
+                <label for="genero-otro">Otro</label>
+            </p>
+        </div>
+</body>
+</html>
